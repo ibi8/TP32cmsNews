@@ -1,0 +1,121 @@
+[ 2017-08-16T09:57:57+08:00 ] ::1 /x086TP32/admin.php?m=Admin&c=.&a=admin.php&c=login
+ERR: 非法操作:admin.php
+
+[ 2017-08-16T09:58:15+08:00 ] ::1 /x086TP32/index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cms_admin` SET `lastlogintime`='1502848695' WHERE ( admin_id=1 ) [ RunTime:0.0000s ]
+
+[ 2017-08-16T10:19:13+08:00 ] ::1 /x086TP32/admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) F:\wamp\www\x086TP32\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\wamp\www\x086TP32\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: push F:\wamp\www\x086TP32\Application\Admin\Controller\ContentController.class.php 第 178 行.
+
+[ 2017-08-16T10:19:20+08:00 ] ::1 /x086TP32/admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) F:\wamp\www\x086TP32\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\wamp\www\x086TP32\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\wamp\www\x086TP32\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('23')  [ RunTime:0.0220s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\wamp\www\x086TP32\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','重庆美女球迷争芳斗艳','./upload/2017/08/14/5990f66b4bf32.jpg','23','1','1457855680') [ RunTime:0.0010s ]
+
+[ 2017-08-16T10:20:01+08:00 ] ::1 /x086TP32/admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) F:\wamp\www\x086TP32\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\wamp\www\x086TP32\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\wamp\www\x086TP32\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('23')  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\wamp\www\x086TP32\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','重庆美女球迷争芳斗艳','./upload/2017/08/14/5990f66b4bf32.jpg','23','1','1457855680') [ RunTime:0.0000s ]
+
+[ 2017-08-16T10:22:09+08:00 ] ::1 /x086TP32/admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) F:\wamp\www\x086TP32\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\wamp\www\x086TP32\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\wamp\www\x086TP32\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('23')  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\wamp\www\x086TP32\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','重庆美女球迷争芳斗艳','./upload/2017/08/14/5990f66b4bf32.jpg','23','1','1457855680') [ RunTime:0.0010s ]
+
+[ 2017-08-16T10:22:32+08:00 ] ::1 /x086TP32/admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositioncontentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) F:\wamp\www\x086TP32\Application\Admin\Controller\PositioncontentController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositioncontentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\wamp\www\x086TP32\Application\Admin\Controller\PositioncontentController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\wamp\www\x086TP32\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0030s ]
+SQL: UPDATE `cms_position_content` SET `status`='-1' WHERE ( id=41 ) [ RunTime:0.0000s ]
+
+[ 2017-08-16T10:22:39+08:00 ] ::1 /x086TP32/admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositioncontentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) F:\wamp\www\x086TP32\Application\Admin\Controller\PositioncontentController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositioncontentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\wamp\www\x086TP32\Application\Admin\Controller\PositioncontentController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\wamp\www\x086TP32\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0030s ]
+SQL: UPDATE `cms_position_content` SET `status`='-1' WHERE ( id=39 ) [ RunTime:0.0000s ]
+
+[ 2017-08-16T10:22:49+08:00 ] ::1 /x086TP32/admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) F:\wamp\www\x086TP32\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\wamp\www\x086TP32\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\wamp\www\x086TP32\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('23')  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\wamp\www\x086TP32\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','重庆美女球迷争芳斗艳','./upload/2017/08/14/5990f66b4bf32.jpg','23','1','1457855680') [ RunTime:0.0010s ]
+
+[ 2017-08-16T11:33:37+08:00 ] ::1 /x086TP32/admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositioncontentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) F:\wamp\www\x086TP32\Application\Admin\Controller\PositioncontentController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositioncontentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\wamp\www\x086TP32\Application\Admin\Controller\PositioncontentController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\wamp\www\x086TP32\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0030s ]
+SQL: UPDATE `cms_position_content` SET `status`='-1' WHERE ( id=42 ) [ RunTime:0.0010s ]
+
+[ 2017-08-16T11:33:41+08:00 ] ::1 /x086TP32/admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositioncontentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) F:\wamp\www\x086TP32\Application\Admin\Controller\PositioncontentController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositioncontentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\wamp\www\x086TP32\Application\Admin\Controller\PositioncontentController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\wamp\www\x086TP32\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0030s ]
+SQL: UPDATE `cms_position_content` SET `status`='-1' WHERE ( id=40 ) [ RunTime:0.0000s ]
+
+[ 2017-08-16T11:33:57+08:00 ] ::1 /x086TP32/admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositioncontentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) F:\wamp\www\x086TP32\Application\Admin\Controller\PositioncontentController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositioncontentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\wamp\www\x086TP32\Application\Admin\Controller\PositioncontentController.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\wamp\www\x086TP32\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0040s ]
+SQL: UPDATE `cms_position_content` SET `status`='0' WHERE ( id=36 ) [ RunTime:0.0010s ]
+
